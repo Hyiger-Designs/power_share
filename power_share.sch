@@ -15,35 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:NX3008NBKW Q1
-U 1 1 5D158ED3
-P 5770 2670
-F 0 "Q1" V 5987 2716 50  0000 L CNN
-F 1 "NX3008NBKW" V 5990 2150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 5900 2595 50  0001 L CIN
-F 3 "https://www.mouser.com/datasheet/2/916/NX3008NBKW-1320222.pdf" V 5700 2670 50  0001 L CNN
-	1    5770 2670
-	0    1    -1   0   
-$EndComp
-$Comp
-L Transistor_FET:NX3008NBKW Q2
-U 1 1 5D1599E4
-P 5770 4360
-F 0 "Q2" V 6000 4160 50  0000 L CNN
-F 1 "NX3008NBKW" V 6000 4360 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 5900 4285 50  0001 L CIN
-F 3 "https://www.mouser.com/datasheet/2/916/NX3008NBKW-1320222.pdf" V 5700 4360 50  0001 L CNN
-	1    5770 4360
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5480 4390 5475 4390
-Wire Wire Line
-	5570 4065 5570 4185
-Wire Wire Line
-	5570 4185 5475 4185
-Connection ~ 5475 4390
-$Comp
 L Device:C_Small C4
 U 1 1 5D1689F8
 P 5370 4165
@@ -127,10 +98,6 @@ $EndComp
 Wire Wire Line
 	6270 3665 7020 3665
 Wire Wire Line
-	6270 3215 7020 3215
-Wire Wire Line
-	7020 3215 7020 3210
-Wire Wire Line
 	7020 3410 7020 3430
 Wire Wire Line
 	6875 3430 7020 3430
@@ -142,26 +109,7 @@ Wire Wire Line
 Text GLabel 7445 3430 2    50   Output ~ 0
 5V
 Wire Wire Line
-	6060 4390 7020 4390
-Wire Wire Line
-	7020 4390 7020 3665
-Connection ~ 7020 3665
-Wire Wire Line
-	6060 2640 7020 2640
-Wire Wire Line
-	7020 2640 7020 3210
-Connection ~ 7020 3210
-Wire Wire Line
-	5480 2640 5425 2640
-Wire Wire Line
-	5570 2965 5570 2835
-Wire Wire Line
-	5570 2835 5425 2835
-Wire Wire Line
-	5425 2835 5425 2765
-Connection ~ 5425 2640
-Wire Wire Line
-	5425 2640 4965 2640
+	5570 2965 5570 2765
 $Comp
 L Device:C_Small C1
 U 1 1 5D174E05
@@ -174,19 +122,7 @@ F 3 "~" H 5370 2865 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5370 2765 5425 2765
-Connection ~ 5425 2765
-Wire Wire Line
-	5425 2765 5425 2640
-Wire Wire Line
-	4625 4390 4935 4390
-Wire Wire Line
-	5370 4265 5475 4265
-Wire Wire Line
-	5475 4185 5475 4265
-Connection ~ 5475 4265
-Wire Wire Line
-	5475 4265 5475 4390
+	4715 4365 5025 4365
 $Comp
 L power:GND #PWR01
 U 1 1 5D17B2A4
@@ -255,9 +191,9 @@ F 3 "" H 4755 3895 50  0001 C CNN
 	1    4755 3895
 	1    0    0    -1  
 $EndComp
-Text GLabel 4615 2640 0    50   Input ~ 0
+Text GLabel 4690 2665 0    50   Input ~ 0
 5V_A
-Text GLabel 4625 4390 0    50   Input ~ 0
+Text GLabel 4715 4365 0    50   Input ~ 0
 5V_B
 Text GLabel 3580 3620 2    50   Output ~ 0
 5V_A
@@ -311,31 +247,29 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D19EA8F
-P 4965 2640
-F 0 "#FLG0101" H 4965 2715 50  0001 C CNN
-F 1 "PWR_FLAG" H 4965 2813 50  0000 C CNN
-F 2 "" H 4965 2640 50  0001 C CNN
-F 3 "~" H 4965 2640 50  0001 C CNN
-	1    4965 2640
+P 5040 2665
+F 0 "#FLG0101" H 5040 2740 50  0001 C CNN
+F 1 "PWR_FLAG" H 5040 2838 50  0000 C CNN
+F 2 "" H 5040 2665 50  0001 C CNN
+F 3 "~" H 5040 2665 50  0001 C CNN
+	1    5040 2665
 	1    0    0    -1  
 $EndComp
-Connection ~ 4965 2640
+Connection ~ 5040 2665
 Wire Wire Line
-	4965 2640 4615 2640
+	5040 2665 4690 2665
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5D19FDC4
-P 4935 4390
-F 0 "#FLG0102" H 4935 4465 50  0001 C CNN
-F 1 "PWR_FLAG" H 4935 4563 50  0000 C CNN
-F 2 "" H 4935 4390 50  0001 C CNN
-F 3 "~" H 4935 4390 50  0001 C CNN
-	1    4935 4390
+P 5025 4365
+F 0 "#FLG0102" H 5025 4440 50  0001 C CNN
+F 1 "PWR_FLAG" H 5025 4538 50  0000 C CNN
+F 2 "" H 5025 4365 50  0001 C CNN
+F 3 "~" H 5025 4365 50  0001 C CNN
+	1    5025 4365
 	1    0    0    -1  
 $EndComp
-Connection ~ 4935 4390
-Wire Wire Line
-	4935 4390 5475 4390
+Connection ~ 5025 4365
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5D1A27C0
@@ -416,4 +350,72 @@ F 3 "~" H 8395 3425 50  0001 C CNN
 	1    8395 3425
 	1    0    0    -1  
 $EndComp
+$Comp
+L Transistor_FET:IRLR8726PBF Q1
+U 1 1 5D1697F4
+P 5770 2765
+F 0 "Q1" V 5976 2819 50  0000 L CNN
+F 1 "IRLR8726PBF" V 5940 2170 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin4" H 5970 2665 50  0001 L CNN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf8721pbf-1.pdf" H 5670 2765 50  0001 L CNN
+	1    5770 2765
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_FET:IRLR8726PBF Q2
+U 1 1 5D16AE64
+P 5770 4265
+F 0 "Q2" H 5976 4319 50  0000 L CNN
+F 1 "IRLR8726PBF" H 5976 4228 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin4" H 5970 4165 50  0001 L CNN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf8721pbf-1.pdf" H 5670 4265 50  0001 L CNN
+	1    5770 4265
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5040 2665 5470 2665
+Wire Wire Line
+	5370 2765 5470 2765
+Wire Wire Line
+	5470 2765 5470 2665
+Connection ~ 5470 2765
+Wire Wire Line
+	5470 2765 5570 2765
+Wire Wire Line
+	7020 2665 5970 2665
+Connection ~ 7020 3665
+Wire Wire Line
+	5470 2665 5570 2665
+Connection ~ 5470 2665
+Wire Wire Line
+	5970 4365 7020 4365
+Wire Wire Line
+	7020 3665 7020 4365
+Wire Wire Line
+	5370 4265 5370 4295
+Wire Wire Line
+	5370 4295 5475 4295
+Wire Wire Line
+	5570 4065 5570 4295
+Wire Wire Line
+	5475 4295 5475 4365
+Wire Wire Line
+	5025 4365 5475 4365
+Connection ~ 5475 4295
+Wire Wire Line
+	5475 4295 5570 4295
+Connection ~ 5475 4365
+Wire Wire Line
+	5475 4365 5570 4365
+Wire Wire Line
+	7020 2665 7020 3195
+Wire Wire Line
+	6270 3215 6985 3215
+Wire Wire Line
+	6985 3215 6985 3195
+Wire Wire Line
+	6985 3195 7020 3195
+Connection ~ 7020 3195
+Wire Wire Line
+	7020 3195 7020 3210
 $EndSCHEMATC
