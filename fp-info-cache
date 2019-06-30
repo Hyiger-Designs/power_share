@@ -1,4 +1,4 @@
-16227137666725212
+16185711264290717
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6075,6 +6075,62 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector_AMASS
+AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
+Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
+RC Connector XT30
+0
+5
+3
+Connector_AMASS
+AMASS_MR30PW-M_1x03_P3.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
+RC Connector XT30
+0
+5
+3
+Connector_AMASS
+AMASS_XT30PW-F_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+RC Connector XT30
+0
+4
+2
+Connector_AMASS
+AMASS_XT30PW-M_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+RC Connector XT30
+0
+4
+2
+Connector_AMASS
+AMASS_XT30U-F_1x02_P5.0mm_Vertical
+Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Connector_AMASS
+AMASS_XT30U-M_1x02_P5.0mm_Vertical
+Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Connector_AMASS
+AMASS_XT30UPB-F_1x02_P5.0mm_Vertical
+Connector XT30 Vertical PCB Female, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Connector_AMASS
+AMASS_XT30UPB-M_1x02_P5.0mm_Vertical
+Connector XT30 Vertical PCB Male, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -7812,27 +7868,6 @@ connector Molex  top entry
 32
 31
 Connector_FFC-FPC
-Molex_502231-1500_1x15-1SH_P0.5mm_Vertical
-Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 6.05mm Height, Vertical, Surface Mount, ZIF, 15 Circuits (https://www.molex.com/pdm_docs/sd/5022311500_sd.pdf)
-molex FFC/FPC connector Pitch 0.5mm vertical
-0
-17
-16
-Connector_FFC-FPC
-Molex_502231-2400_1x24-1SH_P0.5mm_Vertical
-Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 6.05mm Height, Vertical, Surface Mount, ZIF, 24 Circuits (https://www.molex.com/pdm_docs/sd/5022312400_sd.pdf)
-molex FFC/FPC connector Pitch 0.5mm vertical
-0
-26
-25
-Connector_FFC-FPC
-Molex_502231-3300_1x33-1SH_P0.5mm_Vertical
-Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 6.05mm Height, Vertical, Surface Mount, ZIF, 33 Circuits (https://www.molex.com/pdm_docs/sd/5022313300_sd.pdf)
-molex FFC/FPC connector Pitch 0.5mm vertical
-0
-36
-34
-Connector_FFC-FPC
 Molex_502244-1530_1x15-1MP_P0.5mm_Horizontal
 Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 15 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
 molex FFC/FPC connector Pitch 0.5mm right angle
@@ -9507,7 +9542,7 @@ connector Hirose  top entry
 16
 Connector_Hirose
 Hirose_DF63-1P-3.96DSA_1x01_P3.96mm_Horizontal
-Hirose DF63 through hole, DF63-1P-3.96DSA, 1 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+Molex DF63 through hole, DF63-1P-3.96DSA, 1 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
 connector Hirose  top entry
 0
 1
@@ -9541,89 +9576,12 @@ connector Hirose  top entry
 5
 5
 Connector_Hirose
-Hirose_DF63-5P-3.96DSA_1x05_P3.96mm_Vertical
-Hirose DF63 through hole, DF63-5P-3.96DSA, 5 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-5
-5
-Connector_Hirose
 Hirose_DF63-6P-3.96DSA_1x06_P3.96mm_Horizontal
 Molex DF63 through hole, DF63-6P-3.96DSA, 6 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
 connector Hirose  top entry
 0
 6
 6
-Connector_Hirose
-Hirose_DF63-6P-3.96DSA_1x06_P3.96mm_Vertical
-Hirose DF63 through hole, DF63-6P-3.96DSA, 6 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-6
-6
-Connector_Hirose
-Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical
-Hirose DF63 through hole, DF63M-1P-3.96DSA, 1 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-1
-1
-Connector_Hirose
-Hirose_DF63M-2P-3.96DSA_1x02_P3.96mm_Vertical
-Hirose DF63 through hole, DF63M-2P-3.96DSA, 2 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-2
-2
-Connector_Hirose
-Hirose_DF63M-3P-3.96DSA_1x03_P3.96mm_Vertical
-Hirose DF63 through hole, DF63M-3P-3.96DSA, 3 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-3
-3
-Connector_Hirose
-Hirose_DF63M-4P-3.96DSA_1x04_P3.96mm_Vertical
-Hirose DF63 through hole, DF63M-4P-3.96DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-4
-4
-Connector_Hirose
-Hirose_DF63R-1P-3.96DSA_1x01_P3.96mm_Vertical
-Hirose DF63 through hole, DF63R-1P-3.96DSA, 1 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-1
-1
-Connector_Hirose
-Hirose_DF63R-2P-3.96DSA_1x02_P3.96mm_Vertical
-Hirose DF63 through hole, DF63R-2P-3.96DSA, 2 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-2
-2
-Connector_Hirose
-Hirose_DF63R-3P-3.96DSA_1x03_P3.96mm_Vertical
-Hirose DF63 through hole, DF63R-3P-3.96DSA, 3 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-3
-3
-Connector_Hirose
-Hirose_DF63R-4P-3.96DSA_1x04_P3.96mm_Vertical
-Hirose DF63 through hole, DF63R-4P-3.96DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-4
-4
-Connector_Hirose
-Hirose_DF63R-5P-3.96DSA_1x05_P3.96mm_Vertical
-Hirose DF63 through hole, DF63R-5P-3.96DSA, 5 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
-connector Hirose DF63 vertical
-0
-5
-5
 Connector_IDC
 IDC-Header_2x03_P2.54mm_Horizontal
 Through hole angled IDC box header, 2x03, 2.54mm pitch, double rows
@@ -49496,13 +49454,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Logos
-asian_tiger
-
-
-0
-0
-0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -52262,20 +52213,6 @@ LFCSP DFN_QFN
 35
 21
 Package_CSP
-LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
-LFCSP, 20 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-20/CP_20_8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-25
-21
-Package_CSP
-LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
-LFCSP, 20 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-20/CP_20_8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-35
-21
-Package_CSP
 LFCSP-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
 LFCSP, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_24_7.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 LFCSP DFN_QFN
@@ -54745,34 +54682,6 @@ Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=43), gener
 Texas QFN NoLead
 0
 39
-25
-Package_DFN_QFN
-Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm
-QFN, 16 Pin (http://www.ti.com/lit/ds/symlink/ina3221.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-21
-17
-Package_DFN_QFN
-Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm_ThermalVias
-QFN, 16 Pin (http://www.ti.com/lit/ds/symlink/ina3221.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-31
-17
-Package_DFN_QFN
-Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm
-QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/bq24133.pdf#page=40)
-QFN NoLead
-0
-29
-25
-Package_DFN_QFN
-Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm_ThermalVias
-QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/bq24133.pdf#page=40)
-QFN NoLead
-0
-36
 25
 Package_DFN_QFN
 Texas_RNN0018A
@@ -59254,13 +59163,6 @@ SOP SO
 0
 18
 18
-Package_SO
-SOP-24_7.5x15.4mm_P1.27mm
-SOP, 24 Pin (http://www.issi.com/WW/pdf/31FL3218.pdf#page=14), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOP SO
-0
-24
-24
 Package_SO
 SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm
 4-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/84299/vor1142b4.pdf
@@ -66247,6 +66149,13 @@ Shielding Cabinet
 0
 48
 1
+RF_WiFi
+USR-C322
+https://www.usriot.com/download/WIFI/USR-C322-Hardware-Manual_V1.2.01.pdf
+WiFi IEEE802.11 b/g/n
+0
+44
+44
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html

@@ -313,7 +313,7 @@ Connection ~ 7320 3430
 Wire Wire Line
 	7320 3430 7445 3430
 $Comp
-L Power_Management:LTC4370 U1
+L power_share-rescue:LTC4370-Power_Management U1
 U 1 1 5D15CEC4
 P 5570 3515
 F 0 "U1" H 5395 3590 50  0000 C CNN
@@ -351,7 +351,7 @@ F 3 "~" H 8395 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRLR8726PBF Q1
+L power_share-rescue:IRLR8726PBF-Transistor_FET Q1
 U 1 1 5D1697F4
 P 5770 2765
 F 0 "Q1" V 5976 2819 50  0000 L CNN
@@ -362,7 +362,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf8721pbf-1.pdf" H 5670 27
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IRLR8726PBF Q2
+L power_share-rescue:IRLR8726PBF-Transistor_FET Q2
 U 1 1 5D16AE64
 P 5770 4265
 F 0 "Q2" H 5976 4319 50  0000 L CNN
