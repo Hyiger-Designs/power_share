@@ -126,32 +126,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR01
 U 1 1 5D17B2A4
-P 4620 3570
-F 0 "#PWR01" H 4620 3320 50  0001 C CNN
-F 1 "GND" H 4625 3397 50  0000 C CNN
-F 2 "" H 4620 3570 50  0001 C CNN
-F 3 "" H 4620 3570 50  0001 C CNN
-	1    4620 3570
+P 4620 3625
+F 0 "#PWR01" H 4620 3375 50  0001 C CNN
+F 1 "GND" H 4625 3452 50  0000 C CNN
+F 2 "" H 4620 3625 50  0001 C CNN
+F 3 "" H 4620 3625 50  0001 C CNN
+	1    4620 3625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4870 3665 4755 3665
-Wire Wire Line
-	4620 3570 4620 3575
-Wire Wire Line
-	4620 3545 4620 3570
-Connection ~ 4620 3570
-$Comp
-L Device:C_Small C2
-U 1 1 5D176DE8
-P 4620 3470
-F 0 "C2" H 4712 3516 50  0000 L CNN
-F 1 "100nF" H 4712 3425 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4620 3470 50  0001 C CNN
-F 3 "~" H 4620 3470 50  0001 C CNN
-	1    4620 3470
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4870 3365 4740 3365
 Wire Wire Line
@@ -169,10 +153,6 @@ F 3 "~" H 4755 3765 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4870 3515 4760 3515
-Wire Wire Line
-	4760 3515 4755 3570
-Wire Wire Line
-	4755 3570 4620 3570
 Wire Wire Line
 	4870 3815 4870 3865
 Wire Wire Line
@@ -418,4 +398,24 @@ Wire Wire Line
 Connection ~ 7020 3195
 Wire Wire Line
 	7020 3195 7020 3210
+$Comp
+L Device:C_Small C2
+U 1 1 5D176DE8
+P 4620 3470
+F 0 "C2" H 4712 3516 50  0000 L CNN
+F 1 "100nF" H 4712 3425 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4620 3470 50  0001 C CNN
+F 3 "~" H 4620 3470 50  0001 C CNN
+	1    4620 3470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4620 3625 4620 3595
+Wire Wire Line
+	4760 3515 4760 3595
+Wire Wire Line
+	4760 3595 4620 3595
+Connection ~ 4620 3595
+Wire Wire Line
+	4620 3595 4620 3570
 $EndSCHEMATC
