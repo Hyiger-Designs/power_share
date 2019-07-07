@@ -99,11 +99,37 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power_Management_LTC4370
+# power_GND
 #
-DEF Power_Management_LTC4370 U 0 40 Y Y 1 F N
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_share-rescue_LTC4370-Power_Management
+#
+DEF power_share-rescue_LTC4370-Power_Management U 0 40 Y Y 1 F N
 F0 "U" -200 50 50 H V C CNN
-F1 "Power_Management_LTC4370" -50 -50 50 H V C CNN
+F1 "power_share-rescue_LTC4370-Power_Management" -50 -50 50 H V C CNN
 F2 "Package_SO:MSOP-16_3x4.039mm_P0.5mm" -750 -250 50 H I C CNN
 F3 "" -750 -250 50 H I C CNN
 DRAW
@@ -127,11 +153,11 @@ X FETON1 9 700 150 100 L 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_NX3008NBKW
+# power_share-rescue_NX3008NBKW-Transistor_FET
 #
-DEF Transistor_FET_NX3008NBKW Q 0 20 Y N 1 F N
+DEF power_share-rescue_NX3008NBKW-Transistor_FET Q 0 20 Y N 1 F N
 F0 "Q" 70 220 50 H V L CNN
-F1 "Transistor_FET_NX3008NBKW" 165 135 50 H V L CNN
+F1 "power_share-rescue_NX3008NBKW-Transistor_FET" 165 135 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" 130 -75 50 H I L CIN
 F3 "" -70 0 50 V I L CNN
 $FPLIST
@@ -171,32 +197,6 @@ P 4 0 1 0 60 15 45 -10 75 -10 60 15 N
 X G 1 -295 0 100 R 50 50 1 1 P
 X S 2 30 -290 100 U 50 50 1 1 P
 X D 3 30 290 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
