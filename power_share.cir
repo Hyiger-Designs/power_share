@@ -1,0 +1,16 @@
+.title KiCad schematic
+C4 Net-_C4-Pad1_ 5V_B 39nF
+C3 Net-_C3-Pad1_ GND 100nF
+D1 Net-_D1-Pad1_ Net-_D1-Pad2_ LED
+R2 5V Net-_D1-Pad2_ 820R
+R1 Net-_Q1-Pad2_ 5V 2.5m
+R3 5V Net-_Q2-Pad2_ 2.5m
+C1 5V_A Net-_C1-Pad2_ 39nF
+R4 Net-_R4-Pad1_ GND 30.1k
+U1 GND Net-_R4-Pad1_ Net-_C3-Pad1_ 5V_B Net-_Q2-Pad1_ Net-_C4-Pad1_ Net-_Q2-Pad2_ Net-_D1-Pad1_ Net-_D1-Pad1_ Net-_Q1-Pad2_ Net-_C1-Pad2_ Net-_Q1-Pad1_ 5V_A Net-_C2-Pad1_ GND GND LTC4370
+J2 5V_A GND 5V_B Conn_01x03
+J1 5V GND Conn_01x02
+Q1 Net-_Q1-Pad1_ Net-_Q1-Pad2_ 5V_A IRLR8726PBF
+Q2 Net-_Q2-Pad1_ Net-_Q2-Pad2_ 5V_B IRLR8726PBF
+C2 Net-_C2-Pad1_ GND 100nF
+.end
