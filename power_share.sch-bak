@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:power_share-cache
 EELAYER 29 0
 EELAYER END
@@ -418,4 +418,5 @@ Wire Wire Line
 Connection ~ 4620 3595
 Wire Wire Line
 	4620 3595 4620 3570
+Connection ~ 4620 3370
 $EndSCHEMATC
